@@ -1,0 +1,64 @@
+grammar jp.kyushu_u.ait.f.ISSDSL with org.eclipse.xtext.common.Terminals
+
+generate iSSDSL "http://www.f.ait.kyushu-u.jp/ISSDSL"
+
+Model :
+	(instructions += Instruction)*;
+
+Instruction :
+	'instruction' name=ID '{'
+		type=InstType 
+		coding=Coding
+		behavior=Behavior
+	'}';
+
+InstType :
+	'type' '=' InstTypeLabel ';';
+
+Coding :
+	'coding' '=' (binary=Binary) ';';
+	
+Behavior :
+	'behavior' '=' '{'
+		(statements+=(Expression | Condition) ';')*
+	'}';
+	
+Expression returns Expression:
+	LExp '=' RExp;
+
+LExp:
+	REGS;
+	
+RExp:
+	REGSARGS (AOPs RExp)?;
+	
+Condition returns Condition:
+	'if' '('
+		REGSARGS CMPOPs REGSARGS ','
+		JMPTARGET ','
+		JMPTARGET ')';
+
+REGSARGS :
+	(REGS | ARGS);
+	
+JMPTARGET :
+	(REGSARGS | 'next');
+
+REGS :
+	('regs' '[' ARGS ']') | 'pc';
+	
+terminal ARGS :
+	('arg1' | 'arg2' | 'arg3');
+
+terminal AOPs :
+	('+' | '-' | '*' | '/');
+	
+terminal CMPOPs :
+	('==' | '!=' | '<' | '>' | '<=' | '>=');
+
+terminal InstTypeLabel :
+	('arithmetic' | 'loadstore' | 'branch');
+	
+terminal Binary :
+	'0x'('0' .. '9' | 'A' .. 'F')+;
+	

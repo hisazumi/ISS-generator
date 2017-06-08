@@ -1,0 +1,112 @@
+«IMPORT mcore»;
+
+«DEFINE main FOR Model»
+«FILE "isa.cpp"»
+typdef union
+{
+        unsigned int value;
+        struct
+        {
+                unsigned int op:6;
+                unsigned int rest:27;
+        }op;
+        
+        struct
+        {
+                unsigned int op:6;
+                unsigned int rs:5;
+                unsigned int rt:5;
+                unsigned int rd:5;
+        }reg;
+        
+        struct
+        {
+                unsigned int op:6;
+                unsigned int rs:5;
+                unsigned int rt:5;
+                unsigned int rd:5;
+                unsigned int sa:5;
+                unsigned int func:6;
+        }r;
+        
+        struct
+        {
+                unsigned int op:6;
+                unsigned int rs:5;
+                unsigned int rt:5;
+                unsigned int im:16;
+        }i;
+        
+        struct
+        {
+        		unsigned int op:6;
+        		unsigned int addr:26;
+        }j;
+} Inst;
+
+«EXPAND emit_ast FOREACH this.instructions»
+
+void decode (int _inst) {
+        Inst inst;
+        inst.value = _inst;
+        switch (inst.op.op) {
+                «EXPAND decode FOREACH this.instructions»
+        }
+}
+«ENDFILE»
+«ENDDEFINE»
+
+«REM»デコーダ«ENDREM»
+«DEFINE decode FOR Instruction»
+                case «this.coding.coding»: /* «this.name» */
+                        «this.name»_emit (inst);                
+                        break;
+«ENDDEFINE»
+
+«REM»AST生成«ENDREM»
+«DEFINE emit_ast FOR Instruction»
+void «this.name»_emit (Inst inst) 
+{
+	«EXPAND expression FOREACH this.behavior.expressions»
+	«EXPAND condition FOREACH this.behavior.conditions»
+	builder.CreateBr (basic_blocks.at (pc+1));
+}
+«ENDDEFINE»
+
+«DEFINE expression FOR Expression»
+	builder.CreateStore (
+	«IF this.rexp.arg != null»
+		«EXPAND regargs FOR this.rexp.arg»
+	«ELSEIF this.rexp.aop.compareTo("+")==0»
+		builder.CreateAdd(
+        	«EXPAND regargs FOR this.rexp.larg»,
+        	«EXPAND regargs FOR this.rexp.rarg»)
+	«ENDIF»
+	,
+	ir_reg (inst.reg.«this.lexp.reg.arg»)
+	);
+«ENDDEFINE»
+
+«REM»まるでだめ«ENDREM»
+«DEFINE condition FOR Condition»
+builder.CreateCondBr (
+	builder.CreateICmpNE («EXPAND regargs FOR this.larg»,
+				          «EXPAND regargs FOR this.rarg»),
+	basic_blocks.at (inst.i.«this.thentarget»),
+	basic_blocks.at (pc+1));
+«ENDDEFINE»
+
+«DEFINE regargs FOR REGSARGS»
+	«IF this.reg != null»
+		«REM»Register Loading«ENDREM»
+		«IF this.reg.arg.compareTo("") == 0»
+			pc
+		«ELSE» 
+			ir_reg_load (inst.reg.«this.reg.arg»)
+		«ENDIF»
+	«ELSE»
+		ConstantInt::get(Type::getInt32Ty(context), )
+	«ENDIF»
+«ENDDEFINE»
+
+

@@ -1,0 +1,56 @@
+
+union Inst
+{
+	unsigned int value;
+	struct
+	{
+		unsigned int op:5;
+		unsigned int rest:27;
+	}op;
+	struct
+	{
+		unsigned int op:5;
+		unsigned int rs:5;
+		unsigned int rt:5;
+		unsigned int rd:5;
+		unsigned int shamt:5;
+		unsigned int funct:6;
+	}arithmetic;
+};
+
+
+void add_emit (Inst inst) 
+{
+			
+}
+
+void lwi_emit (Inst inst) 
+{
+			
+}
+
+void bne_emit (Inst inst) 
+{
+			
+}
+
+
+void decode (int _inst) {
+	Inst inst;
+	inst.value = _inst;
+	switch (inst.op.op) {
+		
+		case: /* add */
+			add_emit (inst);		
+			break;
+
+		case =: /* lwi */
+			lwi_emit (inst);		
+			break;
+
+		case =: /* bne */
+			bne_emit (inst);		
+			break;
+
+	}
+}

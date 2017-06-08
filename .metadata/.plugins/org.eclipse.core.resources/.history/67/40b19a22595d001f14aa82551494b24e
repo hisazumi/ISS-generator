@@ -1,0 +1,73 @@
+
+typdef union {
+	unsigned int    value;
+	struct {
+		unsigned int    op:5;
+		unsigned int    rest:27;
+	}               op;
+	struct {
+		unsigned int    op:5;
+		unsigned int    arg1:5;
+		unsigned int    arg2:5;
+		unsigned int    arg3:5;
+		unsigned int    shamt:5;
+		unsigned int    funct:6;
+	}               arithmetic;
+}               Inst;
+
+
+void 
+add_emit(Inst inst)
+{
+
+
+
+	builder.CreateStore(
+
+			    builder.CreateAdd(
+					   ir_reg_load(inst.arithmetic.arg2)
+					      ,
+					   ir_reg_load(inst.arithmetic.arg3)
+					      )
+			    ,
+			    ir_reg(inst.arhithmetic.arg1)
+	);
+
+
+
+}
+
+void 
+lwi_emit(Inst inst)
+{
+
+}
+
+void 
+bne_emit(Inst inst)
+{
+
+}
+
+
+void 
+decode(int _inst)
+{
+	Inst            inst;
+	inst.value = _inst;
+	switch (inst.op.op) {
+
+	case 0x0:		/* add */
+		add_emit(inst);
+		break;
+
+	case 0x1:		/* lwi */
+		lwi_emit(inst);
+		break;
+
+	case 0x2:		/* bne */
+		bne_emit(inst);
+		break;
+
+	}
+}

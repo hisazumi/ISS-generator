@@ -1,0 +1,65 @@
+«IMPORT iSSDSL»
+
+«DEFINE main FOR Model»
+«FILE "isa.c"»
+union Inst
+{
+	unsigned int value;
+	struct
+	{
+		unsigned int op:5;
+		unsigned int rest:27;
+	}op;
+	struct
+	{
+		unsigned int op:5;
+		unsigned int rs:5;
+		unsigned int rt:5;
+		unsigned int rd:5;
+		unsigned int shamt:5;
+		unsigned int funct:6;
+	}arithmetic;
+};
+
+«EXPAND emit_ast FOREACH this.instructions»
+
+void decode (int _inst) {
+	Inst inst;
+	inst.value = _inst;
+	switch (inst.op.op) {
+		«EXPAND decode FOREACH this.instructions»
+	}
+}
+«ENDFILE»
+«ENDDEFINE»
+
+«REM»デコーダ«ENDREM»
+«DEFINE decode FOR Instruction»
+		case «this.coding.binary»: /* «this.name» */
+			«this.name»_emit (inst);		
+			break;
+«ENDDEFINE»
+
+«REM»AST生成«ENDREM»
+«DEFINE emit_ast FOR Instruction»
+void «this.name»_emit (Inst inst) 
+{
+	«IF this.type.compareTo("arithmetic")==0»
+	«ELSEIF this.type.compareTo("loadstore") == 0»
+	«ENDIF»		
+}
+«ENDDEFINE»
+
+«DEFINE expression FOR Condition»
+«ENDDEFINE»
+
+«DEFINE expression FOR Expression»
+	«lexp» = «EXPAND rexp FOR this.rexp»
+«ENDDEFINE»
+
+«DEFINE rexp FOR RExp»
+	.«FOREACH this.args AS e»«ENDFOREACH»
+«ENDDEFINE»
+
+
+

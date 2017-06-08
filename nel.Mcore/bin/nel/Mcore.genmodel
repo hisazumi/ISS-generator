@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/nel.Mcore/src-gen"
+    editDirectory="/nel.Mcore.edit/src" editorDirectory="/nel.Mcore.editor/src" modelPluginID="nel.Mcore"
+    forceOverwrite="true" modelName="Mcore" updateClasspath="false" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
+    complianceLevel="5.0" copyrightFields="false" editPluginID="nel.Mcore.edit" editorPluginID="nel.Mcore.editor">
+  <genPackages prefix="Mcore" basePackage="nel" disposableProviderFactory="true" ecorePackage="Mcore.ecore#/">
+    <genClasses ecoreClass="Mcore.ecore#//Model">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Mcore.ecore#//Model/instructions"/>
+    </genClasses>
+    <genClasses ecoreClass="Mcore.ecore#//Instruction">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Mcore.ecore#//Instruction/name"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Mcore.ecore#//Instruction/type"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Mcore.ecore#//Instruction/coding"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Mcore.ecore#//Instruction/behavior"/>
+    </genClasses>
+    <genClasses ecoreClass="Mcore.ecore#//InstType">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Mcore.ecore#//InstType/type"/>
+    </genClasses>
+    <genClasses ecoreClass="Mcore.ecore#//Coding">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Mcore.ecore#//Coding/coding"/>
+    </genClasses>
+    <genClasses ecoreClass="Mcore.ecore#//Behavior">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Mcore.ecore#//Behavior/expressions"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Mcore.ecore#//Behavior/conditions"/>
+    </genClasses>
+    <genClasses ecoreClass="Mcore.ecore#//Expression">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Mcore.ecore#//Expression/lexp"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Mcore.ecore#//Expression/rexp"/>
+    </genClasses>
+    <genClasses ecoreClass="Mcore.ecore#//LExp">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Mcore.ecore#//LExp/reg"/>
+    </genClasses>
+    <genClasses ecoreClass="Mcore.ecore#//RExp">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Mcore.ecore#//RExp/arg"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Mcore.ecore#//RExp/larg"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Mcore.ecore#//RExp/aop"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Mcore.ecore#//RExp/rarg"/>
+    </genClasses>
+    <genClasses ecoreClass="Mcore.ecore#//Condition">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Mcore.ecore#//Condition/larg"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Mcore.ecore#//Condition/cmpop"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Mcore.ecore#//Condition/rarg"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Mcore.ecore#//Condition/thentarget"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Mcore.ecore#//Condition/elsetarget"/>
+    </genClasses>
+    <genClasses ecoreClass="Mcore.ecore#//REGSARGS">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Mcore.ecore#//REGSARGS/reg"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Mcore.ecore#//REGSARGS/arg"/>
+    </genClasses>
+    <genClasses ecoreClass="Mcore.ecore#//REGS">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Mcore.ecore#//REGS/arg"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>

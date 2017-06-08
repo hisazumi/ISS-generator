@@ -1,0 +1,11 @@
+«IMPORT instructions»
+
+«DEFINE main FOR InstructionSet»
+  «EXPAND Instruction::instruction FOREACH instructions.element»
+«ENDDEFINE»
+
+«FILE "isa.c"»
+	«DEFINE instruction FOR Instruction»
+		«this.name»
+	«ENDDEFINE»
+«ENDFILE»

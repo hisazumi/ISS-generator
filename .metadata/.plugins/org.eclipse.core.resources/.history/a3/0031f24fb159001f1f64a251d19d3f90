@@ -1,0 +1,4 @@
+instruction add {
+	type=ARITHMETHIC
+	coding=0b0000
+}

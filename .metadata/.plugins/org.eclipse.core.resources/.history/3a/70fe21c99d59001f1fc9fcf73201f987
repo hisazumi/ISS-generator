@@ -1,0 +1,7 @@
+«IMPORT instructions»
+
+«FILE "isa.c"»
+	«DEFINE inst FOR Instruction»
+		«this.name»
+	«ENDDEFINE»
+«ENDFILE»

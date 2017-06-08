@@ -1,0 +1,19 @@
+instruction add {
+	type=arithmetic;
+	coding=0b0000;
+}
+
+instruction lwi {
+	type=loadstore;
+	coding=0b0100;
+	behavior={
+		regs[op1] = op2;
+	}
+}
+
+instruction bne {
+	type=branch;
+	coding=0b1000;
+	behavior={
+	}
+}

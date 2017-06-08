@@ -1,0 +1,5 @@
+<<import instructions>>
+
+<<DEFINE inst FOR Instruction>>
+
+<<ENDDEFINE>>

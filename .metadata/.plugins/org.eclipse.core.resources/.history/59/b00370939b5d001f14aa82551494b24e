@@ -1,0 +1,7 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+USER_OBJS := -lLLVMXCoreCodeGen\ -lLLVMXCoreAsmPrinter\ -lLLVMXCoreInfo\ -lLLVMSystemZCodeGen\ -lLLVMSystemZAsmPrinter\ -lLLVMSystemZInfo\ -lLLVMSparcCodeGen\ -lLLVMSparcAsmPrinter\ -lLLVMSparcInfo\ -lLLVMPowerPCCodeGen\ -lLLVMPowerPCAsmPrinter\ -lLLVMPowerPCInfo\ -lLLVMPIC16AsmPrinter\ -lLLVMPIC16CodeGen\ -lLLVMPIC16Info\ -lLLVMMSP430CodeGen\ -lLLVMMSP430AsmPrinter\ -lLLVMMSP430Info\ -lLLVMMSIL\ -lLLVMMSILInfo\ -lLLVMMipsAsmPrinter\ -lLLVMMipsCodeGen\ -lLLVMMipsInfo\ -lLLVMLinker\ -lLLVMipo\ -lLLVMInterpreter\ -lLLVMInstrumentation\ -lLLVMJIT\ -lLLVMExecutionEngine\ -lLLVMDebugger\ -lLLVMCppBackend\ -lLLVMCppBackendInfo\ -lLLVMCellSPUCodeGen\ -lLLVMCellSPUAsmPrinter\ -lLLVMCellSPUInfo\ -lLLVMCBackend\ -lLLVMCBackendInfo\ -lLLVMBlackfinCodeGen\ -lLLVMBlackfinAsmPrinter\ -lLLVMBlackfinInfo\ -lLLVMBitWriter\ -lLLVMX86AsmParser\ -lLLVMX86AsmPrinter\ -lLLVMX86CodeGen\ -lLLVMX86Info\ -lLLVMAsmParser\ -lLLVMARMAsmPrinter\ -lLLVMARMCodeGen\ -lLLVMARMInfo\ -lLLVMArchive\ -lLLVMBitReader\ -lLLVMAlphaCodeGen\ -lLLVMSelectionDAG\ -lLLVMAlphaAsmPrinter\ -lLLVMAsmPrinter\ -lLLVMCodeGen\ -lLLVMScalarOpts\ -lLLVMTransformUtils\ -lLLVMipa\ -lLLVMAnalysis\ -lLLVMTarget\ -lLLVMMC\ -lLLVMCore\ -lLLVMAlphaInfo\ -lLLVMSupport\ -lLLVMSystem
+
+LIBS :=

@@ -1,0 +1,23 @@
+#include "llvm/Support/IRBuilder.h"
+#include "llvm/LLVMContext.h"
+#include "llvm/Module.h"
+#include "llvm/Function.h"
+#include "llvm/DerivedTypes.h"
+#include "llvm/Constants.h"
+#include "llvm/Instructions.h"
+#include "llvm/ModuleProvider.h"
+#include "llvm/Analysis/Verifier.h"
+#include "llvm/ExecutionEngine/JIT.h"
+#include "llvm/ExecutionEngine/Interpreter.h"
+#include "llvm/ExecutionEngine/GenericValue.h"
+#include "llvm/Support/raw_ostream.h"
+#include "llvm/GlobalVariable.h"
+#include "llvm/Target/TargetData.h"
+#include "llvm/LinkAllPasses.h"
+#include "llvm/PassManager.h"
+
+extern Module *module;
+extern LLVMContext context;
+extern IRBuilder<> builder(context);
+extern ExecutionEngine *engine;
+extern std::vector<BasicBlock *> basic_blocks;

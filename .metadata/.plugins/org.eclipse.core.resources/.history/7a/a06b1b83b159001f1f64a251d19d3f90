@@ -1,0 +1,13 @@
+instruction add {
+	type=arithmetic
+	coding=0b0000
+}
+
+instruction lwi {
+	type=loadstore
+	coding=0b1000
+}
+
+instruction bne {
+	type=branch
+}

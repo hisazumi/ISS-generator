@@ -1,0 +1,66 @@
+grammar nel.Mcore with org.eclipse.xtext.common.Terminals
+
+generate mcore "http://www.f.ait.kyushu-u.ac.jp/Mcore"
+
+Model returns Model:
+        (instructions += Instruction)*;
+
+Instruction returns Instruction:
+        'instruction' name=ID '{'
+                type=InstType 
+                coding=Coding
+                behavior=Behavior
+        '}';
+
+InstType :
+        'type' (type=InstTypeLabel) ';';
+
+Coding :
+        'coding' (coding=Binary) ';';
+        
+Behavior :
+        'behavior' '{'
+                ((expressions += Expression
+                  | conditions += Condition) ';' )*
+        '}';
+        
+Expression :
+        (lexp=LExp) '=' (rexp=RExp);
+
+LExp:
+        (reg=REGS);
+        
+RExp:
+		(arg=REGSARGS) |
+		((larg=REGSARGS) (aop=AOPs) (rarg=REGSARGS));
+        
+Condition :
+        'if' '('
+                (larg=REGSARGS) (cmpop=CMPOPs) (rarg=REGSARGS) ','
+                (thentarget=JMPTARGET) ','
+                (elsetarget=JMPTARGET) ')';
+
+REGSARGS returns REGSARGS :
+        ((reg=REGS) | (arg=ARGS));
+        
+JMPTARGET :
+        ('addr' | 'im' | 'next');
+
+REGS :
+        ('regs' '[' (arg=ARGS) ']') | 'pc';
+        
+terminal ARGS :
+        ('rd' | 'rs' | 'rt' | 'im' | 'addr');
+
+terminal AOPs :
+        ('+' | '-' | '*' | '/');
+        
+terminal CMPOPs :
+        ('==' | '!=' | '<' | '>' | '<=' | '>=');
+
+terminal InstTypeLabel :
+        ('r' | 'i' | 'j');
+        
+terminal Binary :
+        '0x'('0' .. '9' | 'A' .. 'F')+;
+ 

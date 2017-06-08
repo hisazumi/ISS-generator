@@ -1,0 +1,44 @@
+«IMPORT iSSDSL»
+
+«DEFINE main FOR Model»
+«FILE "isa.c"»
+«EXPAND emit_ast FOREACH this.instructions»
+
+void decode (int inst) {
+	switch ((inst >> (32-4)) & 0x0000000F) {
+		«EXPAND decode FOREACH this.instructions»
+	}
+}
+«ENDFILE»
+«ENDDEFINE»
+
+«REM»デコーダ«ENDREM»
+«DEFINE decode FOR Instruction»
+		case «this.coding.binary»: /* «this.name» */
+			«this.name»_emit (inst);		
+			break;
+«ENDDEFINE»
+
+union Arithmetic
+{
+	int value;
+	struct
+	{
+		
+	}
+};
+
+«REM»AST生成«ENDREM»
+«DEFINE emit_ast FOR Instruction»
+void «this.name»_emit (int inst) 
+{
+	«IF this.type.compareTo("arithmetic")==0»
+	int arg1 = (inst >> (32-4-4)) & 0x0000000F;
+	int arg2 = (inst >> (32-8-4)) & 0x0000000F;
+	int arg3 = (inst >> (32-12-4)) & 0x0000000F;
+	«ENDIF»
+	«IF this.type.compareTo("loadstore") == 0»
+	«ENDIF»		
+}
+«ENDDEFINE»
+

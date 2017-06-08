@@ -1,0 +1,25 @@
+grammar mcore with org.eclipse.xtext.common.Terminals
+
+generate mcore "http://www.mcore"
+
+Model :
+	(imports+=Import)*
+	(elements+=Type)*;
+	
+Import :
+	'import' importURI=STRING;
+	
+Type:
+	SimpleType | Entity;
+	
+SimpleType:
+	'type' name=ID;
+	
+Entity :
+	'entity' name=ID ('extends' extends=[Entity])? '{'
+		properties+=Property*
+	'}';
+
+Property:
+	'property' name=ID ':' type=[Type] (many?='[]')?;
+	

@@ -1,0 +1,11 @@
+«IMPORT instructions»
+
+«DEFINE main FOR Model»
+  «EXPAND Instruction::inst FOREACH instructions»
+«ENDDEFINE»
+
+«FILE "isa.c"»
+	«DEFINE inst FOR Instruction»
+		«this.name»
+	«ENDDEFINE»
+«ENDFILE»

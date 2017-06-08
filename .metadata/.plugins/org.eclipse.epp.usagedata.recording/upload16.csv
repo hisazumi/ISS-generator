@@ -1,0 +1,276 @@
+what,kind,bundleId,bundleVersion,description,time
+started,bundle,org.eclipse.jdt.debug.ui,3.4.1.v20090811_r351,"org.eclipse.jdt.debug.ui",1273303558735
+started,bundle,org.eclipse.cdt.debug.mi.ui,6.0.0.201002161416,"org.eclipse.cdt.debug.mi.ui",1273303558848
+started,bundle,org.eclipse.cdt.debug.mi.core,6.0.0.201002161416,"org.eclipse.cdt.debug.mi.core",1273303558899
+activated,editor,org.eclipse.xpand.ui,0.7.2.v200908120436,"org.eclipse.xpand.ui.XpandEditor",1273303579471
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1273303592518
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1273303601903
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1273303609931
+activated,view,org.eclipse.jdt.ui,3.5.2.r352_v20100106-0800,"org.eclipse.jdt.ui.PackageExplorer",1273303612075
+executed,command,,,"org.eclipse.emf.mwe.ui.debug.launching.shortcut.run",1273303614591
+activated,editor,org.eclipse.xpand.ui,0.7.2.v200908120436,"org.eclipse.xpand.ui.XpandEditor",1273303635442
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1273303636706
+activated,editor,org.eclipse.xpand.ui,0.7.2.v200908120436,"org.eclipse.xpand.ui.XpandEditor",1273303639347
+activated,view,org.eclipse.jdt.ui,3.5.2.r352_v20100106-0800,"org.eclipse.jdt.ui.PackageExplorer",1273303650841
+opened,editor,org.eclipse.ui.editors,3.5.0.v20090527-2000,"org.eclipse.ui.DefaultTextEditor",1273303652108
+activated,editor,org.eclipse.ui.editors,3.5.0.v20090527-2000,"org.eclipse.ui.DefaultTextEditor",1273303652187
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1273303681161
+activated,view,org.eclipse.jdt.ui,3.5.2.r352_v20100106-0800,"org.eclipse.jdt.ui.PackageExplorer",1273303683651
+executed,command,,,"org.eclipse.emf.mwe.ui.debug.launching.shortcut.run",1273303685900
+activated,editor,org.eclipse.ui.editors,3.5.0.v20090527-2000,"org.eclipse.ui.DefaultTextEditor",1273303705798
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1273303706931
+opened,editor,org.eclipse.emf.mwe.ui.simpleEditor,,"org.eclipse.emf.mwe.ui.internal.simpleEditor.WorkflowEditor",1273303712263
+activated,editor,org.eclipse.emf.mwe.ui.simpleEditor,,"org.eclipse.emf.mwe.ui.internal.simpleEditor.WorkflowEditor",1273303712408
+activated,editor,org.eclipse.xpand.ui,0.7.2.v200908120436,"org.eclipse.xpand.ui.XpandEditor",1273303712913
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.cut",1273303719591
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1273303719903
+activated,view,org.eclipse.jdt.ui,3.5.2.r352_v20100106-0800,"org.eclipse.jdt.ui.PackageExplorer",1273303721408
+executed,command,,,"org.eclipse.emf.mwe.ui.debug.launching.shortcut.run",1273303724113
+activated,editor,org.eclipse.xpand.ui,0.7.2.v200908120436,"org.eclipse.xpand.ui.XpandEditor",1273303737295
+activated,view,org.eclipse.jdt.ui,3.5.2.r352_v20100106-0800,"org.eclipse.jdt.ui.PackageExplorer",1273303737746
+activated,editor,org.eclipse.xpand.ui,0.7.2.v200908120436,"org.eclipse.xpand.ui.XpandEditor",1273303738033
+activated,view,org.eclipse.jdt.ui,3.5.2.r352_v20100106-0800,"org.eclipse.jdt.ui.PackageExplorer",1273303738204
+activated,editor,org.eclipse.xpand.ui,0.7.2.v200908120436,"org.eclipse.xpand.ui.XpandEditor",1273303738525
+activated,view,org.eclipse.jdt.ui,3.5.2.r352_v20100106-0800,"org.eclipse.jdt.ui.PackageExplorer",1273303746286
+activated,editor,org.eclipse.xpand.ui,0.7.2.v200908120436,"org.eclipse.xpand.ui.XpandEditor",1273303755926
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1273303768540
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1273303801467
+activated,editor,org.eclipse.emf.mwe.ui.simpleEditor,,"org.eclipse.emf.mwe.ui.internal.simpleEditor.WorkflowEditor",1273303835211
+closed,editor,org.eclipse.xpand.ui,0.7.2.v200908120436,"org.eclipse.xpand.ui.XpandEditor",1273303835213
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.close",1273303835248
+activated,editor,org.eclipse.ui.editors,3.5.0.v20090527-2000,"org.eclipse.ui.DefaultTextEditor",1273303836041
+closed,editor,org.eclipse.emf.mwe.ui.simpleEditor,,"org.eclipse.emf.mwe.ui.internal.simpleEditor.WorkflowEditor",1273303836041
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.close",1273303836082
+started,bundle,org.eclipse.ui.navigator,3.4.2.M20100120-0800,"org.eclipse.ui.navigator",1273303836540
+started,bundle,org.eclipse.cdt.ui,5.1.2.201002161416,"org.eclipse.cdt.ui",1273303836560
+started,bundle,org.eclipse.cdt.make.ui,6.0.1.201002161416,"org.eclipse.cdt.make.ui",1273303836569
+opened,editor,org.eclipse.cdt.ui,5.1.2.201002161416,"org.eclipse.cdt.ui.editor.CEditor",1273303837031
+activated,editor,org.eclipse.cdt.ui,5.1.2.201002161416,"org.eclipse.cdt.ui.editor.CEditor",1273303837105
+closed,editor,org.eclipse.ui.editors,3.5.0.v20090527-2000,"org.eclipse.ui.DefaultTextEditor",1273303837106
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.close",1273303837169
+started,bundle,org.eclipse.xtext.logging,0.7.2.v200908120607,"org.eclipse.xtext.logging",1273303838097
+started,bundle,org.eclipse.xtext.ui.common,0.7.2.v200908120607,"org.eclipse.xtext.ui.common",1273303838103
+started,bundle,org.eclipse.emf.edit,2.5.0.v200906151043,"org.eclipse.emf.edit",1273303838146
+started,bundle,org.eclipse.xtext.ui.core,0.7.2.v200908120607,"org.eclipse.xtext.ui.core",1273303838199
+started,bundle,org.eclipse.emf.common.ui,2.5.0.v200906151043,"org.eclipse.emf.common.ui",1273303838233
+started,bundle,org.eclipse.emf.edit.ui,2.5.0.v200906151043,"org.eclipse.emf.edit.ui",1273303838236
+started,bundle,org.eclipse.wst.sse.core,1.1.402.v201001251516,"org.eclipse.wst.sse.core",1273303840004
+started,bundle,org.eclipse.xtext.xtext.ui,0.7.2.v200908120607,"org.eclipse.xtext.xtext.ui",1273303840066
+opened,editor,org.eclipse.xtext.xtext.ui,0.7.2.v200908120607,"org.eclipse.xtext.Xtext",1273303840793
+activated,editor,org.eclipse.xtext.xtext.ui,0.7.2.v200908120607,"org.eclipse.xtext.Xtext",1273303840843
+closed,editor,org.eclipse.cdt.ui,5.1.2.201002161416,"org.eclipse.cdt.ui.editor.CEditor",1273303840843
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.close",1273303840959
+activated,view,org.eclipse.jdt.ui,3.5.2.r352_v20100106-0800,"org.eclipse.jdt.ui.PackageExplorer",1273303842024
+closed,editor,org.eclipse.xtext.xtext.ui,0.7.2.v200908120607,"org.eclipse.xtext.Xtext",1273303842025
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.close",1273303842040
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1273303848250
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1273303850988
+executed,command,org.eclipse.ui.ide,3.5.2.M20100113-0800,"org.eclipse.ui.project.cleanAction",1273303851029
+started,bundle,org.eclipse.wst.xml.core,1.1.402.v201001222130,"org.eclipse.wst.xml.core",1273303853989
+started,bundle,org.eclipse.pde.build,3.5.2.R35x_20100114,"org.eclipse.pde.build",1273303854343
+opened,editor,org.eclipse.emf.mwe.ui.simpleEditor,,"org.eclipse.emf.mwe.ui.internal.simpleEditor.WorkflowEditor",1273303865624
+activated,editor,org.eclipse.emf.mwe.ui.simpleEditor,,"org.eclipse.emf.mwe.ui.internal.simpleEditor.WorkflowEditor",1273303865647
+activated,view,org.eclipse.jdt.ui,3.5.2.r352_v20100106-0800,"org.eclipse.jdt.ui.PackageExplorer",1273303867861
+executed,command,,,"org.eclipse.emf.mwe.ui.debug.launching.shortcut.run",1273303871678
+started,bundle,org.eclipse.emf.mint,0.8.0.v200906161513,"org.eclipse.emf.mint",1273303892038
+started,bundle,org.eclipse.emf.mint.ui,0.8.0.v200906161513,"org.eclipse.emf.mint.ui",1273303892040
+executed,command,,,"org.eclipse.emf.mwe.ui.debug.launching.shortcut.run",1273303898732
+executed,command,,,"org.eclipse.emf.mwe.ui.debug.launching.shortcut.run",1273303916995
+opened,editor,org.eclipse.ui.editors,3.5.0.v20090527-2000,"org.eclipse.ui.DefaultTextEditor",1273303928218
+activated,editor,org.eclipse.ui.editors,3.5.0.v20090527-2000,"org.eclipse.ui.DefaultTextEditor",1273303928258
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1273303933188
+activated,view,org.eclipse.jdt.ui,3.5.2.r352_v20100106-0800,"org.eclipse.jdt.ui.PackageExplorer",1273303936929
+opened,editor,org.eclipse.xpand.ui,0.7.2.v200908120436,"org.eclipse.xpand.ui.XpandEditor",1273303938618
+activated,editor,org.eclipse.xpand.ui,0.7.2.v200908120436,"org.eclipse.xpand.ui.XpandEditor",1273303938666
+activated,view,org.eclipse.jdt.ui,3.5.2.r352_v20100106-0800,"org.eclipse.jdt.ui.PackageExplorer",1273303938809
+executed,command,,,"org.eclipse.emf.mwe.ui.debug.launching.shortcut.run",1273303944475
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1273303976550
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1273304016345
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1273304022779
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1273304024361
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.delete",1273304024417
+executed,command,,,"org.eclipse.emf.mwe.ui.debug.launching.shortcut.run",1273304028906
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1273304034656
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1273304046111
+activated,editor,org.eclipse.emf.mwe.ui.simpleEditor,,"org.eclipse.emf.mwe.ui.internal.simpleEditor.WorkflowEditor",1273304048318
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1273304062070
+activated,view,org.eclipse.jdt.ui,3.5.2.r352_v20100106-0800,"org.eclipse.jdt.ui.PackageExplorer",1273304064290
+executed,command,,,"org.eclipse.emf.mwe.ui.debug.launching.shortcut.run",1273304066500
+activated,editor,org.eclipse.emf.mwe.ui.simpleEditor,,"org.eclipse.emf.mwe.ui.internal.simpleEditor.WorkflowEditor",1273304075999
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1273304077390
+activated,view,org.eclipse.jdt.ui,3.5.2.r352_v20100106-0800,"org.eclipse.jdt.ui.PackageExplorer",1273304079333
+executed,command,,,"org.eclipse.emf.mwe.ui.debug.launching.shortcut.run",1273304081236
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1273304098169
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.copy",1273304104720
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1273304105676
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1273304159062
+activated,editor,org.eclipse.emf.mwe.ui.simpleEditor,,"org.eclipse.emf.mwe.ui.internal.simpleEditor.WorkflowEditor",1273304160711
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1273304162371
+activated,view,org.eclipse.jdt.ui,3.5.2.r352_v20100106-0800,"org.eclipse.jdt.ui.PackageExplorer",1273304164184
+executed,command,,,"org.eclipse.emf.mwe.ui.debug.launching.shortcut.run",1273304166009
+activated,editor,org.eclipse.ui.editors,3.5.0.v20090527-2000,"org.eclipse.ui.DefaultTextEditor",1273304181401
+activated,editor,org.eclipse.xpand.ui,0.7.2.v200908120436,"org.eclipse.xpand.ui.XpandEditor",1273304181959
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1273304186186
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1273304199812
+activated,view,org.eclipse.jdt.ui,3.5.2.r352_v20100106-0800,"org.eclipse.jdt.ui.PackageExplorer",1273304208086
+executed,command,,,"org.eclipse.emf.mwe.ui.debug.launching.shortcut.run",1273304210497
+activated,editor,org.eclipse.xpand.ui,0.7.2.v200908120436,"org.eclipse.xpand.ui.XpandEditor",1273304235148
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1273304238225
+activated,view,org.eclipse.jdt.ui,3.5.2.r352_v20100106-0800,"org.eclipse.jdt.ui.PackageExplorer",1273304240997
+executed,command,,,"org.eclipse.emf.mwe.ui.debug.launching.shortcut.run",1273304243314
+activated,editor,org.eclipse.xpand.ui,0.7.2.v200908120436,"org.eclipse.xpand.ui.XpandEditor",1273304255074
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1273304258329
+activated,view,org.eclipse.jdt.ui,3.5.2.r352_v20100106-0800,"org.eclipse.jdt.ui.PackageExplorer",1273304260223
+executed,command,,,"org.eclipse.emf.mwe.ui.debug.launching.shortcut.run",1273304261935
+activated,editor,org.eclipse.emf.mwe.ui.simpleEditor,,"org.eclipse.emf.mwe.ui.internal.simpleEditor.WorkflowEditor",1273304268089
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1273304309653
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1273304319679
+activated,editor,org.eclipse.ui.editors,3.5.0.v20090527-2000,"org.eclipse.ui.DefaultTextEditor",1273304375800
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1273304512237
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1273304512575
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1273304513175
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1273304513402
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1273304513711
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1273304513968
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1273304514702
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1273304515004
+activated,view,org.eclipse.jdt.ui,3.5.2.r352_v20100106-0800,"org.eclipse.jdt.ui.PackageExplorer",1273304517360
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1273304523154
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1273304525235
+started,bundle,org.eclipse.gmf.xpand.migration,1.0.0.v20090608-0720,"org.eclipse.gmf.xpand.migration",1273304527670
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1273304530341
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.core.resources"".",1273304531712
+closed,editor,org.eclipse.emf.mwe.ui.simpleEditor,,"org.eclipse.emf.mwe.ui.internal.simpleEditor.WorkflowEditor",1273304531898
+closed,editor,org.eclipse.ui.editors,3.5.0.v20090527-2000,"org.eclipse.ui.DefaultTextEditor",1273304531930
+closed,editor,org.eclipse.xpand.ui,0.7.2.v200908120436,"org.eclipse.xpand.ui.XpandEditor",1273304531992
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1273304532136
+executed,command,org.eclipse.ltk.ui.refactoring,3.4.101.r352_v20100209,"org.eclipse.ltk.ui.refactoring.commands.deleteResources",1273304532170
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.delete",1273304532170
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1273304535615
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.core.resources"".",1273304538405
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1273304538711
+executed,command,org.eclipse.ltk.ui.refactoring,3.4.101.r352_v20100209,"org.eclipse.ltk.ui.refactoring.commands.deleteResources",1273304538759
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.delete",1273304538759
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1273304539424
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1273304547103
+executed,command,,,"org.eclipse.emf.mwe.ui.debug.launching.shortcut.run",1273304551856
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1273304574456
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1273304575164
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1273304576210
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1273304578914
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1273304588326
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.core.resources"".",1273304590925
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1273304591119
+executed,command,org.eclipse.ltk.ui.refactoring,3.4.101.r352_v20100209,"org.eclipse.ltk.ui.refactoring.commands.deleteResources",1273304591142
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.delete",1273304591142
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1273304593345
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1273304613366
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1273304621651
+error,log,,,"Unhandled event loop exception",1273304643447
+error,log,,,"Unhandled event loop exception",1273304644317
+error,log,,,"Unhandled event loop exception",1273304644944
+error,log,,,"Unhandled event loop exception",1273304645272
+error,log,,,"Unhandled event loop exception",1273304645432
+error,log,,,"Unhandled event loop exception",1273304646107
+error,log,,,"Unhandled event loop exception",1273304646192
+error,log,,,"Unhandled event loop exception",1273304646385
+error,log,,,"Unhandled event loop exception",1273304646816
+error,log,,,"Unhandled event loop exception",1273304646967
+error,log,,,"Unhandled event loop exception",1273304647234
+error,log,,,"Unhandled event loop exception",1273304647361
+error,log,,,"Unhandled event loop exception",1273304647440
+error,log,,,"Unhandled event loop exception",1273304662816
+error,log,,,"Unhandled event loop exception",1273304663142
+error,log,,,"Unhandled event loop exception",1273304663314
+error,log,,,"Unhandled event loop exception",1273304663457
+error,log,,,"Unhandled event loop exception",1273304663538
+error,log,,,"Unhandled event loop exception",1273304664672
+error,log,,,"Unhandled event loop exception",1273304665183
+error,log,,,"Unhandled event loop exception",1273304665323
+error,log,,,"Unhandled event loop exception",1273304665505
+error,log,,,"Unhandled event loop exception",1273304665579
+error,log,,,"Unhandled event loop exception",1273304667856
+error,log,,,"Unhandled event loop exception",1273304668013
+error,log,,,"Unhandled event loop exception",1273304668123
+error,log,,,"Unhandled event loop exception",1273304668209
+error,log,,,"Unhandled event loop exception",1273304668295
+error,log,,,"FileDocumentProvider.createElementInfo",1273304671174
+opened,editor,org.eclipse.xtext.xtext.ui,0.7.2.v200908120607,"org.eclipse.xtext.Xtext",1273304671223
+activated,editor,org.eclipse.xtext.xtext.ui,0.7.2.v200908120607,"org.eclipse.xtext.Xtext",1273304671237
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1273304671364
+activated,view,org.eclipse.jdt.ui,3.5.2.r352_v20100106-0800,"org.eclipse.jdt.ui.PackageExplorer",1273304671429
+activated,editor,org.eclipse.xtext.xtext.ui,0.7.2.v200908120607,"org.eclipse.xtext.Xtext",1273304682931
+activated,view,org.eclipse.jdt.ui,3.5.2.r352_v20100106-0800,"org.eclipse.jdt.ui.PackageExplorer",1273304682994
+closed,editor,org.eclipse.xtext.xtext.ui,0.7.2.v200908120607,"org.eclipse.xtext.Xtext",1273304682995
+opened,editor,org.eclipse.xtext.xtext.ui,0.7.2.v200908120607,"org.eclipse.xtext.Xtext",1273304690444
+activated,editor,org.eclipse.xtext.xtext.ui,0.7.2.v200908120607,"org.eclipse.xtext.Xtext",1273304690463
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1273304693802
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1273304694073
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1273304694874
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1273304700573
+activated,view,org.eclipse.jdt.ui,3.5.2.r352_v20100106-0800,"org.eclipse.jdt.ui.PackageExplorer",1273304703390
+opened,editor,org.eclipse.xtext.xtext.ui,0.7.2.v200908120607,"org.eclipse.xtext.Xtext",1273304703746
+activated,editor,org.eclipse.xtext.xtext.ui,0.7.2.v200908120607,"org.eclipse.xtext.Xtext",1273304703770
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.selectAll",1273304704806
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.copy",1273304705134
+activated,view,org.eclipse.jdt.ui,3.5.2.r352_v20100106-0800,"org.eclipse.jdt.ui.PackageExplorer",1273304706136
+activated,editor,org.eclipse.xtext.xtext.ui,0.7.2.v200908120607,"org.eclipse.xtext.Xtext",1273304706409
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.paste",1273304709331
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.cut",1273304728878
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.paste",1273304730955
+opened,view,org.eclipse.ui.ide,3.5.2.M20100113-0800,"org.eclipse.ui.views.ProblemView",1273304735717
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1273304736856
+activated,editor,org.eclipse.xtext.xtext.ui,0.7.2.v200908120607,"org.eclipse.xtext.Xtext",1273304748693
+activated,editor,org.eclipse.xtext.xtext.ui,0.7.2.v200908120607,"org.eclipse.xtext.Xtext",1273304754449
+closed,editor,org.eclipse.xtext.xtext.ui,0.7.2.v200908120607,"org.eclipse.xtext.Xtext",1273304754449
+activated,view,org.eclipse.jdt.ui,3.5.2.r352_v20100106-0800,"org.eclipse.jdt.ui.PackageExplorer",1273304756189
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1273304758940
+closed,editor,org.eclipse.xtext.xtext.ui,0.7.2.v200908120607,"org.eclipse.xtext.Xtext",1273304761552
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1273304761742
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.delete",1273304761773
+opened,editor,org.eclipse.emf.mwe.ui.simpleEditor,,"org.eclipse.emf.mwe.ui.internal.simpleEditor.WorkflowEditor",1273304766703
+activated,editor,org.eclipse.emf.mwe.ui.simpleEditor,,"org.eclipse.emf.mwe.ui.internal.simpleEditor.WorkflowEditor",1273304766719
+activated,view,org.eclipse.jdt.ui,3.5.2.r352_v20100106-0800,"org.eclipse.jdt.ui.PackageExplorer",1273304768578
+closed,editor,org.eclipse.emf.mwe.ui.simpleEditor,,"org.eclipse.emf.mwe.ui.internal.simpleEditor.WorkflowEditor",1273304768578
+executed,command,,,"org.eclipse.emf.mwe.ui.debug.launching.shortcut.run",1273304771808
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.undo",1273304793785
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1273304797321
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1273304799026
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.delete",1273304799071
+opened,editor,org.eclipse.xtext.xtext.ui,0.7.2.v200908120607,"org.eclipse.xtext.Xtext",1273304800183
+activated,editor,org.eclipse.xtext.xtext.ui,0.7.2.v200908120607,"org.eclipse.xtext.Xtext",1273304800203
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1273304804399
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1273304805576
+executed,command,org.eclipse.ui.ide,3.5.2.M20100113-0800,"org.eclipse.ui.project.cleanAction",1273304805627
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1273304815887
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1273304817737
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1273304823750
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1273304842508
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1273304845279
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1273304852282
+activated,view,org.eclipse.jdt.ui,3.5.2.r352_v20100106-0800,"org.eclipse.jdt.ui.PackageExplorer",1273304859352
+executed,command,,,"org.eclipse.emf.mwe.ui.debug.launching.shortcut.run",1273304862933
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1273304880371
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.core.resources"".",1273304883081
+closed,editor,org.eclipse.xtext.xtext.ui,0.7.2.v200908120607,"org.eclipse.xtext.Xtext",1273304883226
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1273304883550
+executed,command,org.eclipse.ltk.ui.refactoring,3.4.101.r352_v20100209,"org.eclipse.ltk.ui.refactoring.commands.deleteResources",1273304883574
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.delete",1273304883574
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1273304886925
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.core.resources"".",1273304888004
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1273304888415
+executed,command,org.eclipse.ltk.ui.refactoring,3.4.101.r352_v20100209,"org.eclipse.ltk.ui.refactoring.commands.deleteResources",1273304888438
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.delete",1273304888438
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1273304890502
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.core.resources"".",1273304892182
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1273304892646
+executed,command,org.eclipse.ltk.ui.refactoring,3.4.101.r352_v20100209,"org.eclipse.ltk.ui.refactoring.commands.deleteResources",1273304892668
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.delete",1273304892668
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1273304893513
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1273304899915
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1273304903450
+error,log,,,"Unhandled event loop exception",1273304921264
+error,log,,,"Unhandled event loop exception",1273304921374
+error,log,,,"Unhandled event loop exception",1273304921448
+opened,editor,org.eclipse.xtext.xtext.ui,0.7.2.v200908120607,"org.eclipse.xtext.Xtext",1273304939772
+activated,editor,org.eclipse.xtext.xtext.ui,0.7.2.v200908120607,"org.eclipse.xtext.Xtext",1273304939784

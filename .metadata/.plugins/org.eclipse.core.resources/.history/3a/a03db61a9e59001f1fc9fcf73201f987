@@ -1,0 +1,13 @@
+import iSSDSL;
+
+«IMPORT instructions»
+
+«DEFINE main FOR InstructionSet»
+  «EXPAND Instruction::inst FOREACH instructions»
+«ENDDEFINE»
+
+«FILE "isa.c"»
+	«DEFINE inst FOR Instruction»
+		«this.name»
+	«ENDDEFINE»
+«ENDFILE»

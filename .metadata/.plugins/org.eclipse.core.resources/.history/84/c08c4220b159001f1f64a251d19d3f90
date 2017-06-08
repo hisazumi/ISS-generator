@@ -1,0 +1,5 @@
+instruction add {
+        type=R
+        coding=0b0000
+        operand=(src1 src2)
+}

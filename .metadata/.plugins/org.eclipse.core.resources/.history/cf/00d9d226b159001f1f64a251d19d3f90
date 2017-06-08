@@ -1,0 +1,4 @@
+instruction add {
+        type=R
+        coding=0b0000
+}

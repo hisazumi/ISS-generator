@@ -1,0 +1,116 @@
+
+
+
+void add_emit (int pc, Inst inst) 
+{
+	
+	builder.CreateStore (
+	
+		builder.CreateAdd(
+        	
+	
+		
+		 
+			ir_reg_load (inst.reg.rs)
+		
+	
+,
+        	
+	
+		
+		 
+			ir_reg_load (inst.reg.rt)
+		
+	
+)
+	
+	,
+	ir_reg (inst.reg.rd)
+	);
+
+	
+	builder.CreateBr (basic_blocks.at (pc+1));
+}
+
+void addi_emit (int pc, Inst inst) 
+{
+	
+	builder.CreateStore (
+	
+		builder.CreateAdd(
+        	
+	
+		
+		 
+			ir_reg_load (inst.reg.rs)
+		
+	
+,
+        	
+	
+		ConstantInt::get(Type::getInt32Ty(context), inst.i.im)
+	
+)
+	
+	,
+	ir_reg (inst.reg.rt)
+	);
+
+	
+	builder.CreateBr (basic_blocks.at (pc+1));
+}
+
+void bne_emit (int pc, Inst inst) 
+{
+	
+	
+builder.CreateCondBr (
+	builder.CreateICmpNE (
+	
+		
+		 
+			ir_reg_load (inst.reg.rs)
+		
+	
+,
+				          
+	
+		
+		 
+			ir_reg_load (inst.reg.rt)
+		
+	
+),
+	basic_blocks.at (inst.i.im),
+	basic_blocks.at (pc+1));
+
+	builder.CreateBr (basic_blocks.at (pc+1));
+}
+
+
+void decode (int pc, int _inst) {
+        Inst inst;
+        inst.value = _inst;
+        printf ("%x ", inst.op.op)
+        switch (inst.op.op) {
+                
+                case 0x2: /* add */
+                        add_emit (pc, inst);                
+                        break;
+
+                case 0x1: /* addi */
+                        addi_emit (pc, inst);                
+                        break;
+
+                case 0x3: /* bne */
+                        bne_emit (pc, inst);                
+                        break;
+
+                case 0:
+                	builder.CreateRetVoid ();
+		  			break;
+		  		default:
+		  			printf ("unsupported instruction ");
+		  			break;
+        }
+}

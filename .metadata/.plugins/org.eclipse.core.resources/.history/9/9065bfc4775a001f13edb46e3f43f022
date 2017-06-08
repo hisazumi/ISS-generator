@@ -1,0 +1,65 @@
+grammar nel.Mcore with org.eclipse.xtext.common.Terminals
+
+generate mcore "http://www.f.ait.kyushu-u.ac.jp/Mcore"
+
+Model returns Model:
+        (instructions += Instruction)*;
+
+Instruction returns Instruction:
+        'instruction' name=ID '{'
+                type=InstType 
+                coding=Coding
+                behavior=Behavior
+        '}';
+
+InstType :
+        'type' (type=InstTypeLabel) ';';
+
+Coding :
+        'coding' (coding=Binary) ';';
+        
+Behavior :
+        'behavior' '{'
+                ((expressions += Expression
+              | conditions += Condition) ';')*
+        '}';
+        
+Expression :
+        (lexp=LExp) '=' (rexp=RExp);
+
+LExp:
+        REGS;
+        
+RExp:
+        (args+=REGSARGS) ((aops+=AOPs) args+=REGSARGS)*;
+        
+Condition :
+        'if' '('
+                (larg=REGSARGS) (cmpop=CMPOPs) (rarg=REGSARGS) ','
+                (thentarget=JMPTARGET) ','
+                (elsetarget=JMPTARGET) ')';
+
+ REGSARGS :
+        (REGS | ARGS);
+        
+JMPTARGET :
+        (REGSARGS | 'next');
+
+REGS :
+        ('regs' '[' ARGS ']') | 'pc';
+        
+terminal ARGS :
+        ('arg1' | 'arg2' | 'arg3');
+
+terminal AOPs :
+        ('+' | '-' | '*' | '/');
+        
+terminal CMPOPs :
+        ('==' | '!=' | '<' | '>' | '<=' | '>=');
+
+terminal InstTypeLabel :
+        ('arithmetic' | 'loadstore' | 'branch');
+        
+terminal Binary :
+        '0x'('0' .. '9' | 'A' .. 'F')+;
+ 

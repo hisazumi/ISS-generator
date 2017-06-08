@@ -1,0 +1,13 @@
+«IMPORT instructions»
+
+«DEFINE main FOR Model»
+  «EXPAND DAO::dao FOREACH elementstypes.typeSelect(Entity)»
+  «EXPAND Entity::entity FOREACH this.elements.typeSelect(Entity)»
+«ENDDEFINE»
+
+
+«FILE "isa.c"»
+	«DEFINE inst FOR Instruction»
+		«this.name»
+	«ENDDEFINE»
+«ENDFILE»

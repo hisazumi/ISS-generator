@@ -1,0 +1,23 @@
+instruction add {
+        type r;
+        coding 0x2;
+        behavior{
+                regs[rd]=regs[rs]+regs[rt];
+        }
+}
+
+instruction addi {
+        type i;
+        coding 0x1;
+        behavior{
+                regs[rt]=regs[rs]+rd;
+        }
+}
+
+instruction bne {
+        type i;
+        coding 0x3;
+        behavior{
+                if (regs[rs] != regs[rt], im, next);
+        }
+}

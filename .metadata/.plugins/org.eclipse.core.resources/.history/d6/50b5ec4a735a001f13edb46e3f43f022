@@ -1,0 +1,23 @@
+instruction add {
+	type=arithmetic;
+	coding 0x0;
+	behavior{
+		regs[arg1]=regs[arg2]+regs[arg3];
+	}
+}
+
+instruction lwi {
+	type loadstore;
+	coding 0x1;
+	behavior{
+		regs[arg1] = arg2;
+	}
+}
+
+instruction bne {
+	type branch;
+	coding 0x2;
+	behavior{
+		if (regs[arg1] != regs[arg2], arg3, next);
+	}
+}
